@@ -1,0 +1,109 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #f5f7fb;
+    color: #111111;
+}
+
+h1, h2, .brand-info h2 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 800;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 140px;
+    background: #0f172a;
+    color: white;
+    position: relative;
+}
+
+.brand-info h2 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.brand-info p {
+    font-size: 13px;
+    color: #cbd5e1;
+    margin-top: 4px;
+}
+
+.logo-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.center-logo {
+    width: 250px;
+    height: auto;
+    display: block;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+nav a.active {
+    color: #38bdf8;
+}
+
+.hero {
+    text-align: center;
+    padding: 180px 20px 100px 20px;
+    background: #ffffff;
+}
+
+.hero h1 {
+    font-size: 44px;
+    color: #111111;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 0 auto;
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.intro {
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.intro h2 {
+    font-size: 28px;
+    color: #111111;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444444;
+}
